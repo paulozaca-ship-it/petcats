@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Saídas locais do psql e backups do banco
+*.log
+*.dump
+*.backup
+saida_*.txt
+
+# Configurações locais de editores e ferramentas SQL
+.vscode/
+.idea/
+*.sqlpro
