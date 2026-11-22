@@ -12,6 +12,12 @@ Implementação física e manipulação de dados (DML) do minimundo **Petcats**,
 
 O modelo lógico foi normalizado até a 3FN: **37 tabelas**, 42 chaves estrangeiras e a visão `vw_total_venda` (o total da venda é calculado a partir dos itens, e não armazenado).
 
+### Diagrama entidade-relacionamento
+
+![DER lógico do Petcats](docs/der.png)
+
+*DER lógico normalizado até a 3FN, com PK, FK, UK e cardinalidades (mín..máx) em notação pé de galinha.*
+
 ## 2. Pré-requisitos
 
 - PostgreSQL 16 ou superior (testado no PostgreSQL 19 / Postgres.app no macOS).
@@ -31,6 +37,8 @@ O modelo lógico foi normalizado até a 3FN: **37 tabelas**, 42 chaves estrangei
 | `06_indices_petcats.sql` | Índices de apoio às consultas e às FKs |
 | `docs/desempenho.md` | Registro dos resultados de desempenho |
 | `docs/git-passo-a-passo.md` | Como versionar e publicar este repositório |
+| `docs/der.png` | Diagrama entidade-relacionamento (DER lógico) |
+| `LICENSE` | Licença MIT |
 | `README.md` | Este manual |
 
 ## 4. Configuração do ambiente
